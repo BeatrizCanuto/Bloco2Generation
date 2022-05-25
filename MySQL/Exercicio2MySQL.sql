@@ -7,7 +7,7 @@ id bigint AUTO_INCREMENT,
 nome varchar(255) NOT NULL,
 quantidade int, 
 genero varchar(255) NOT NULL,
-preco decimal NOT NULL, 
+preco decimal (4,2) NOT NULL, 
 ativo boolean,
 PRIMARY KEY (id)
 );

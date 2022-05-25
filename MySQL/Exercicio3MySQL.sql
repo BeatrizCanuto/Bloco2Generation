@@ -5,9 +5,9 @@ USE db_escola;
 CREATE TABLE tb_estudantes(
 id bigint AUTO_INCREMENT,
 nome varchar(255) NOT NULL,
-idade int, 
+idade varchar(255) NOT NULL, 
 atividadeextra varchar(255) NOT NULL,
-nota decimal NOT NULL, 
+nota decimal (4,2) NOT NULL, 
 ativo boolean,
 PRIMARY KEY (id)
 );
